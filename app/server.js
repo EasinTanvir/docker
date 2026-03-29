@@ -33,7 +33,7 @@ const User = mongoose.model("User", userSchema);
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Server is running 🚀");
+  res.send("Server  running we can continue 🚀");
 });
 
 app.post("/user", async (req, res) => {
